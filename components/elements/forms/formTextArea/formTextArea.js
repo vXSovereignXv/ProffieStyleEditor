@@ -1,4 +1,4 @@
-import styles from './formTextarea.module.scss'
+import styles from './formTextArea.module.scss'
 
 export default function FormTextarea({ textareaLabel, ...rest }) {
     const { name } = rest;
