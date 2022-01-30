@@ -4,7 +4,7 @@ import styles from './styleForm.module.scss'
 import {makePretty, makeUgly} from '../../../lib/styleHelper'
 
 export default function StyleForm() {
-    const [uglyStyle, setUglyStyle] = useState('Layers<Layer1<argument1, transition<argument1, argument2>>, Layer2<argument1, argument2, argument3>>');
+    const [uglyStyle, setUglyStyle] = useState('');
     const [prettyStyle, setPrettyStyle] = useState('');
     
     const makeStylePretty = event => {
