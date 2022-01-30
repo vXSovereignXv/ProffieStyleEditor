@@ -1,0 +1,13 @@
+.textarea {
+    label { 
+        display: block;
+        margin-bottom: 1rem 0;
+    }
+
+    textarea {
+        display: block;
+        width: 100%;
+        min-height: 300px;
+        box-sizing: border-box;
+    }
+}
